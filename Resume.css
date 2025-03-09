@@ -119,3 +119,53 @@ footer a:hover {
 footer p {
     margin: 0;
 }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+        padding: 0;
+        margin-top: 10px;
+    }
+
+    .resume {
+        padding: 15px;
+        margin: 20px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    .job, .education {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .skills {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .skills li {
+        width: auto;
+        padding: 10px;
+    }
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+}
+
