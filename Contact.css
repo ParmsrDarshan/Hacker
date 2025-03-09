@@ -125,3 +125,50 @@ footer {
     background: #f4f4f4;
     margin-top: 50px;
 }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    /* Stack logo and nav vertically */
+    header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+        padding: 0;
+        margin-top: 20px;
+    }
+
+    .logo {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+
+    /* Adjust contact form layout */
+    .contact-section {
+        padding: 20px;
+    }
+
+    form {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .form-group {
+        min-width: 100%;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    /* Footer */
+    footer {
+        padding: 10px;
+        font-size: 0.9em;
+    }
+}
+
